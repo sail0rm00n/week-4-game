@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 04</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Crystal Collector</h1><br>
+	</div>
+	<div class="instructions">
+		<h3>Rules</h3>
+		</br>
+		<ol>
+			<li>You'll be given a random number at the start of the game, shown in "Number to Get".
+            </li><br>
+			<li>There are four Crystal Gems from Cartoon Network's <i>Steven Universe</i> below.</li><br>
+			<ul>
+				<li id="garnet">Garnet</li><br>
+				<li id="pearl">Pearl</li><br>
+				<li id="amethyst">Amethyst</li><br>
+				<li id="lapis">Lapis Lazuli</li>
+			</ul><br>
+			<li>By clicking on a Crystal Gem, you'll add a specific amount of points to your total score.</li><br>
+			<li>Win the game by matching your total score to the random number!</li><br>
+			<li>Lose the game if your total score goes above the random number.</li><br>
+			<li>The value of each Crystal Gem is hidden until you click on it.</li><br>
+			<li>The game will change the values of each Crystal Gem every time you start the game. Good luck!</li>
+        </ol><br>
+        <div>
+            <h2>Number To Get:
+                <span id="randomNumber"></span>
+            </h2><br>
+        </div>
+        <div>
+            <h2>Wins:
+                <span id="numberWins"></span>
+                </br><br>
+                Losses: 
+                <span id="numberLosses"></span>
+            </h2><br>
+        </div>
+	</div>
+	<div class="userTotal">
+		<h2>Total Score:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<div class="crystalgems">
+		<img src="assets/images/garnet.png" class=gemImage id="one" alt="Garnet">
+		<img src="assets/images/pearl.png" class=gemImage id="two" alt="Pearl">
+		<img src="assets/images/amethyst.png" class=gemImage id="three" alt="Amethyst">
+		<img src="assets/images/lapis.png" class=gemImage id="four" alt="Lapis Lazuli">
+	</div>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>
