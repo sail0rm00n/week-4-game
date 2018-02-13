@@ -8,7 +8,6 @@ $(document).ready(function(){
     var num3 = Math.floor(Math.random()*11+1)
     var num4 = Math.floor(Math.random()*11+1)
 
-    //Declares variables for wins/losses
     var userTotal = 0;
     var wins = 0;
     var losses = 0;
